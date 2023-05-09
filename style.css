@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+header{
+
+    display:flex;
+    flex-wrap: wrap;
+    padding: 2rem 0rem 2rem 0rem;
+    gap: 2rem 6rem;
+
+}
+#siteTitulo {
+    flex-basis: 270px;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    box-shadow: 0 3px 6px 0 #00000029;
+  }
+  .Titulo-Tema{
+    padding: 2rem;
+  }
