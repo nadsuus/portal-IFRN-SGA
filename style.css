@@ -3,6 +3,13 @@
   margin: 0px;
 }
 
+/* TITULO*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 30rem 2rem 30rem;
+  gap: 2rem 6rem;
+}
 nav {
   box-shadow: 0px 6px 6px 0px #00000029;
   padding: 0rem 29rem 0rem 29rem;
@@ -16,20 +23,6 @@ nav {
   list-style: none;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.16);
 }
-
-header {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem 30rem 2rem 30rem;
-  gap: 2rem 6rem;
-}
-#siteTitulo {
-  flex-basis: 270px;
-  align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-}
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +33,16 @@ header {
 }
 .Titulo-Tema {
   padding: 2rem;
+}
+/* TITULO*/
+
+/* Titulo do site IFRN*/
+#siteTitulo {
+  flex-basis: 270px;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
 }
 
 main {
