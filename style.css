@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+nav {
+  box-shadow: 0px 6px 6px 0px #00000029;
+  padding: 0rem 29rem 0rem 29rem;
+}
 .navBar {
   display: flex;
   flex-wrap: wrap;
@@ -10,13 +14,13 @@
   gap: 2rem;
   align-items: center;
   list-style: none;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.16);
 }
 
 header {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 2rem 30rem 2rem 30rem;
   gap: 2rem 6rem;
 }
 #siteTitulo {
@@ -33,7 +37,6 @@ header {
   gap: 2rem;
   align-items: center;
   list-style: none;
-  box-shadow: 0 3px 6px 0 #00000029;
 }
 .Titulo-Tema {
   padding: 2rem;
@@ -43,7 +46,7 @@ main {
   padding: 0rem 30rem 0rem 30rem;
 }
 
-footer  {
+footer {
   background-color: #062601;
   display: flex;
   flex-wrap: wrap;
@@ -52,3 +55,4 @@ footer  {
   font-size: 1.3rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
