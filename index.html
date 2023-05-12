@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
+				<link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>IFRN - São Gonçalo do Amarante</title>
   </head>
 
   <body>
     <header>
       <!-- logo do ifrn -->
-      <img class="logo-ifrn" src="logo-ifrn.svg" alt="" />
+      <img class="logo-ifrn" src="imagem/logo-ifrn.svg" alt="" />
 
       <!--TITULO DO SITE IFRN-->
       <p id="Titulo-ifrn">
@@ -43,39 +41,38 @@
 
     <main>
       <!-- carrossel de imagens. feito com bootstrap -->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- indicadores -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
 
-        <!-- imagens -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="img_1.jpg" alt="Imagem 1" />
+						<div class="carrosel">
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="imagem/img_1.jpg" alt="Foto 01">
+            </div>
           </div>
-
-          <div class="item">
-            <img src="img_2.jpg" alt="Imagem 2" />
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="imagem/img_2.jpg" alt="Foto 02">
+            </div>
           </div>
-
-          <div class="item">
-            <img src="img_3.png" alt="Imagem 3" />
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="imagem/img_3.png" alt="Foto 03">
+            </div>
           </div>
         </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
 
-        <!-- controles -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-      </div>
+			</div>
+  </main>
+
+ 
+
 
       <!-- descrição do curso -->
       <div class="description">
@@ -216,5 +213,8 @@
       </p>
       <p class="paragraph_titleFooter">Telefone: (84) 4005-4111</p>
     </footer>
+
+				<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+				<script src="script-carrossel.js"></script>
   </body>
 </html>
