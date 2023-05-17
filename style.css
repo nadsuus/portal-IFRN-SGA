@@ -11,11 +11,11 @@ header {
   flex-wrap: wrap;
   padding: 2rem 10rem 1rem 10rem;
   gap: 6rem;
-  border-bottom: 1px rgba(0, 0, 0, 0.082) solid;
+  border-bottom: 1px rgba(33, 179, 53, 0.082) solid;
 }
 
 nav {
-  box-shadow: 0px 6px 6px 0px #00000029;
+  box-shadow: 0px 6px 6px 0px #2a690029;
   padding: 0rem 24rem 0rem 24rem;
 }
 .navBar {
